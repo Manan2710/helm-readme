@@ -53,7 +53,11 @@ INSTALL_TOKEN: "gateway-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 BOOMI_ACCOUNTID: "12345"
 BOOMI_ENVIRONMENTID: "env-12345"
 ```
+
 ### 2. Create a Namespace (Optional)
+
+If your Helm chart does not include namespace configuration, you can create the namespace separately.
+
 
 ```bash
 kubectl create namespace <namespace-name>
